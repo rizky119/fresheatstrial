@@ -1,3 +1,22 @@
 body {
     background-color: yellowgreen;
 }
+.logo img {
+    max-width: 50%;
+    height: auto;
+    cursor: pointer;
+    display: block;
+}
+
+nav {
+    background-color: yellow;
+}
+
+.menubar {
+    position: absolute;
+    display: block;
+    background: white;
+    width: 50%; 
+    left: 0;
+}
+    
