@@ -34,22 +34,32 @@ img {
     background: white;
     width: 50%; 
     right: 0;
-    top: 0;
+    top: 10%;
     height: 100%;
 }
 
 ul {
+    list-style-type: none;
     display: none;
     margin: 0;
     padding: 0;
 }
 
 ul li a {
-    
     text-decoration: none;
     font-size: 1em;
     display: block;
     padding: 1.5em 2em;
-    background-color: rgba(255,255,265,.40);
+    background-color: rgba(255,255,265,.30);
+}
+
+.landing container {
+    background-size: cover;
+
+
+}
+
+h1 {
+    font-size: 1em;
 }
     
